@@ -4,14 +4,14 @@
     "version": 1,
 
     // The name of the project being benchmarked
-    "project": "asvexample",
+    "project": "skmca",
 
     // The project's homepage
     "project_url": "http://dask.pydata.org/",
 
     // The URL or local path of the source code repository for the
     // project being benchmarked
-    "repo": "https://github.com/TomAugspurger/asv-example.git",
+    "repo": "https://github.com/TomAugspurger/skmca",
 
     // List of branches to benchmark. If not provided, defaults to "master"
     // (for git) or "default" (for mercurial).
@@ -53,7 +53,8 @@
     // followed by the pip installed packages).
     //
     "matrix": {
-        "pandas": []
+        "pandas": [],
+        "scikit-learn": []
     },
 
     // Combinations of libraries/python versions can be excluded/included
